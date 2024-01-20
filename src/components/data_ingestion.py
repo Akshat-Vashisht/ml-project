@@ -19,9 +19,9 @@ class DataIngestion:
         self.ingestion_config = DataIngestionConfig()
 
     def initiate_data_ingestion(self):
-        '''
+        """
         This function is responsible for reading data from a data source and saving it into the artifacts folder after splitting it into training and testing set
-        '''
+        """
         logging.info('Entered the data ingestion component')
         try:
             df = pd.read_csv('notebook\data\stud.csv')
