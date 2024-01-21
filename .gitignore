@@ -164,6 +164,7 @@ cython_debug/
 notes.txt
 
 # Custom
+notebook/
 catboost_info/
 artifacts/
 pyvenv.cfg
