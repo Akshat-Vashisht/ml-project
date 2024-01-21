@@ -9,6 +9,7 @@ def predict_datapoint():
     if request.method == 'GET':
         return render_template('home.html')
     else:
+        print('Inside else block')
         data = CustomData(
             gender=request.form.get('gender'),
             race_ethnicity=request.form.get('ethnicity'),
